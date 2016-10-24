@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta name="description" content="bootstrap admin template">
+    <meta name="author" content="">
+
+    <title>App</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+
+    <link rel="stylesheet" href="../css/emohd.css">
+
+    <!-- Fonts -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic'>
+    <link rel='stylesheet' href='../css/font-IoT.css'>
+</head>
+<body>
+<!-- TITLE BAR -->
+    <div class="titlebar">
+        <a class="titlebar-left brand">Quay lại</a>
+        <div class="brand brand-center"><span></span></div>
+        <a class="titlebar-right brand button-style-2 align-right text-right">Save</a>
+    </div>
+<!-- End TITLE BAR -->
+
+<!-- PAGE CONTENT -->
+    <div class="page">
+        <ul class="room-list" style="padding-left:0;padding-right:0;">
+            <li><div>
+                <span>Scene name</span>
+                <a id="addTask" href="#" class="button-style-2 align-right">
+                    <i class="icon icon-fit iot-color-brand iot-icon-plus align-right" aria-hidden="true"></i>
+                </a>
+            </div></li>
+            <li><div style="padding:0;">
+                <ul class="device-list" style="padding-left:0;padding-right:0;">
+                    <li><div class="glass">
+                        <span class="" data-action='remove-task' data-id="id">
+                            <i class="icon icon-fit iot-icon-plus" aria-hidden="true"></i>
+                        </span>
+                        <span class="" data-id="id">
+                            <select id="action{{id}}" class="list-down">
+                                <option {{selected action}}>Đèn 1</option>
+                                <option {{notSelected action}}>Đèn 2</option>
+                            </select>
+                        </span>
+                        <span class="" data-id="id">
+                            <select id="action{{id}}" class="list-down">
+                                <option {{selected action}}>Phòng ngủ 1</option>
+                                <option {{notSelected action}}>Phòng ngủ 2</option>
+                            </select>
+                        </span>
+
+                        <span class="right-bt" data-id="id">
+                            <select id="action{{id}}" class="list-down">
+                                <option {{selected action}}>Bật</option>
+                                <option {{notSelected action}}>Tắt</option>
+                            </select>
+                        </span>
+                    </div></li>
+                    <li><div class="glass">
+                        <span class="" data-action='remove-task' data-id="id">
+                            <i class="icon icon-fit iot-icon-plus" aria-hidden="true"></i>
+                        </span>
+                        <span class="" data-id="id">
+                            <select id="action{{id}}" class="list-down">
+                                <option {{selected action}}>Đèn 1</option>
+                                <option {{notSelected action}}>Đèn 2</option>
+                            </select>
+                        </span>
+                        <span class="" data-id="id">
+                            <select id="action{{id}}" class="list-down">
+                                <option {{selected action}}>Phòng ngủ 1</option>
+                                <option {{notSelected action}}>Phòng ngủ 2</option>
+                            </select>
+                        </span>
+
+                        <span class="right-bt" data-id="id">
+                            <select id="action{{id}}" class="list-down">
+                                <option {{selected action}}>Bật</option>
+                                <option {{notSelected action}}>Tắt</option>
+                            </select>
+                        </span>
+                    </div></li>
+                </ul>
+            </div></li>
+            <li style="padding:1em;">
+                <button id="removeDevice" type="button" class="btn btn-raised btn-danger btn-block"><h5 class="text-uppercase">Delete</h5></button>
+            </li>
+        </ul>
+    </div>
+<!-- End PAGE CONTENT -->
+
+<!-- TAB BAR -->
+    <div class="tabbar">
+        <ul class="clearfix zero-padding vcenter">
+            <li>
+                <a class="" href="Favorites.html">
+                    <i class="icon iot-icon-favourite"></i><br/>
+                    <span>Favorites</span>
+                </a>
+            </li>
+            <li>
+                <a class="active" href="Rooms.html">
+                    <i class="icon iot-icon-rooms"></i><br/>
+                    <span>Rooms</span>
+                </a>
+            </li>
+            <li>
+                <a href="Scenes.html">
+                    <i class="icon iot-icon-script"></i><br/>
+                    <span>Scenes</span>
+                </a>
+            </li>
+            <li>
+                <a href="Notifications.html">
+                    <i class="icon iot-icon-notifications"></i><br/>
+                    <span>Notifications</span>
+                </a>
+            </li>
+            <li>
+                <a href="More.html">
+                    <i class="icon iot-icon-more"></i><br/>
+                    <span>More</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+<!-- End TAB BAR -->
+    <div class="loading">
+        <div class="titlebar-center">
+            <h3>Loading</h3>
+        </div>
+    </div>
+</body>
+</html>
